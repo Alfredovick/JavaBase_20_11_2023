@@ -23,8 +23,8 @@ public class homeWork5 {
         int totalAttackMin = unitsWarriorsMin * attackWarriorMin + unitsArchersMin * attackArcherMin + unitsCavalryMin * attackCavalryMin;
         int totalAttackLi = unitsWarriorLi * attackWarriorLi + unitArcherLi * attackArcherLi + unitHorsemenLI * attackCavalryLi;
 
-        System.out.println("totalAttackLi" + totalAttackLi);
-        System.out.println("totalAttackMin" + totalAttackMin);
+        System.out.println("Total Attack of Dynasty of Li" + totalAttackLi);
+        System.out.println("Total Attack of Dynasty of Min" + totalAttackMin);
 
     }
 }
