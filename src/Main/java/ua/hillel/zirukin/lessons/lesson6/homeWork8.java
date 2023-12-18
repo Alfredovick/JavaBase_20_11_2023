@@ -28,8 +28,14 @@ public class homeWork8 {
     }
 
     public static boolean containsUnluckyNumber(int number) {
-
-        String numberString = String.valueOf(number);
-        return numberString.contains("4") || numberString.contains("9");
+        // Check if the number contains the digits 4 or 9 without using string contains
+        while (number > 0) {
+            int digit = number % 10;
+            if (digit == 4 || digit == 9) {
+                return true;
+            }
+            number /= 10;
+        }
+        return false;
     }
 }
